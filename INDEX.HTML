@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effficiency | Logistics & Scheduling | Melly Mel & Co LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+        .charter-border { border-left: 1px solid #e2e8f0; padding-left: 2rem; position: relative; }
+        .charter-border::before { content: ''; position: absolute; left: -1px; top: 0; height: 40px; border-left: 3px solid #0f172a; }
+        .tier-card { transition: all 0.3s ease; border: 1px solid #e2e8f0; }
+        .tier-card:hover { transform: translateY(-5px); border-color: #0f172a; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
+    </style>
+</head>
+<body class="bg-[#fcfcfd] text-slate-900 leading-relaxed">
+
+    <nav class="bg-white border-b border-slate-100 sticky top-0 z-50">
+        <div class="container mx-auto px-8 py-5 flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="text-xl font-bold tracking-[0.2em] uppercase text-slate-900 leading-none">e<span class="text-slate-400 font-light">fff</span>iciency</span>
+                <span class="text-[9px] tracking-[0.4em] font-bold text-slate-400 mt-1 uppercase">Scheduling & Dispatch</span>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[10px] uppercase tracking-widest font-bold text-slate-600">
+                <a href="#services" class="hover:text-slate-900 transition">Services</a>
+                <a href="#tiers" class="hover:text-slate-900 transition">Tiers</a>
+                <a href="#governance" class="hover:text-slate-900 transition">Governance</a>
+                <a href="#contact" class="bg-slate-900 text-white px-5 py-2 rounded shadow-lg">Inquire</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-white">
+        <div class="container mx-auto px-8 py-24 md:py-32 flex flex-col items-center text-center border-b border-slate-100">
+            <h1 class="text-4xl md:text-7xl mb-8 text-slate-900 leading-[1.1] font-bold">
+                Elite Remote Scheduling & <br><span class="italic font-light text-slate-500 underline decoration-slate-200">Dispatch Management.</span>
+            </h1>
+            <p class="max-w-3xl mx-auto text-lg text-slate-600 font-light leading-relaxed mb-12">
+                Strategic logistics, calendar precision, and complex spreadsheet oversight for high-demand operations. Managed with the administrative rigor of <strong>Melly Mel & Co LLC</strong>.
+            </p>
+        </div>
+    </header>
+
+    <section id="services" class="py-24 container mx-auto px-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="p-8 bg-white border border-slate-100 shadow-sm">
+                <i class="fas fa-calendar-alt text-2xl text-slate-900 mb-6"></i>
+                <h3 class="serif text-xl mb-4 font-bold">Scheduling</h3>
+                <ul class="text-xs text-slate-500 space-y-3 font-light uppercase tracking-wider">
+                    <li>• Conflict Resolution</li>
+                    <li>• Multi-Timezone Sync</li>
+                    <li>• VIP Prioritization</li>
+                    <li>• Automated Reminders</li>
+                </ul>
+            </div>
+            <div class="p-8 bg-white border border-slate-100 shadow-sm">
+                <i class="fas fa-route text-2xl text-slate-900 mb-6"></i>
+                <h3 class="serif text-xl mb-4 font-bold">Dispatching</h3>
+                <ul class="text-xs text-slate-500 space-y-3 font-light uppercase tracking-wider">
+                    <li>• Real-Time Routing</li>
+                    <li>• Tech Coordination</li>
+                    <li>• Emergency On-Call</li>
+                    <li>• Job Status Reporting</li>
+                </ul>
+            </div>
+            <div class="p-8 bg-white border border-slate-100 shadow-sm">
+                <i class="fas fa-table text-2xl text-slate-900 mb-6"></i>
+                <h3 class="serif text-xl mb-4 font-bold">Management</h3>
+                <ul class="text-xs text-slate-500 space-y-3 font-light uppercase tracking-wider">
+                    <li>• Spreadsheet Oversight</li>
+                    <li>• KPI Metrics Tracking</li>
+                    <li>• Data Entry/Cleaning</li>
+                    <li>• Inventory Management</li>
+                </ul>
+            </div>
+            <div class="p-8 bg-white border border-slate-100 shadow-sm">
+                <i class="fas fa-book text-2xl text-slate-900 mb-6"></i>
+                <h3 class="serif text-xl mb-4 font-bold">Protocol</h3>
+                <ul class="text-xs text-slate-500 space-y-3 font-light uppercase tracking-wider">
+                    <li>• SOP Manual Build</li>
+                    <li>• Branded Comms</li>
+                    <li>• Intake Strategy</li>
+                    <li>• Quality Audits</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="tiers" class="py-24 bg-slate-50 border-y border-slate-200">
+        <div class="container mx-auto px-8">
+            <h2 class="serif text-4xl mb-16 text-center italic">Service Tiers</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                
+                <div class="tier-card bg-white p-10 flex flex-col">
+                    <h4 class="text-[10px] uppercase tracking-[0.3em] text-slate-400 font-bold mb-4">Tier I • Essential</h4>
+                    <h3 class="serif text-2xl mb-2 font-bold italic">Foundation Ops</h3>
+                    <p class="text-3xl font-light mb-8 text-slate-900">$500 <span class="text-xs text-slate-400 uppercase tracking-widest italic">/ Weekly</span></p>
+                    <ul class="text-sm text-slate-500 space-y-4 mb-10 flex-grow font-light leading-relaxed">
+                        <li>• Dedicated Single Calendar Oversight</li>
+                        <li>• Real-Time Conflict Resolution</li>
+                        <li>• Branded Email Coordination</li>
+                        <li>• Basic Spreadsheet Maintenance</li>
+                        <li>• Invoiced Every Friday</li>
+                    </ul>
+                    <button class="w-full py-4 text-[10px] font-bold uppercase tracking-widest border border-slate-900 hover:bg-slate-900 hover:text-white transition">Select Foundation</button>
+                </div>
+
+                <div class="tier-card bg-white p-10 flex flex-col border-t-8 border-t-slate-900 shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-slate-900 text-white text-[8px] px-4 py-1 uppercase tracking-widest font-bold">Premier</div>
+                    <h4 class="text-[10px] uppercase tracking-[0.3em] text-slate-900 font-bold mb-4">Tier II • Professional</h4>
+                    <h3 class="serif text-2xl mb-2 font-bold italic text-slate-900">Strategic Logistics</h3>
+                    <p class="text-3xl font-light mb-8 text-slate-900">$850 <span class="text-xs text-slate-400 uppercase tracking-widest italic">/ Weekly</span></p>
+                    <ul class="text-sm text-slate-500 space-y-4 mb-10 flex-grow font-light leading-relaxed">
+                        <li>• Multi-Calendar/Team Coordination</li>
+                        <li>• Full Dispatch & Routing Support</li>
+                        <li>• SMS Reminder Automation</li>
+                        <li>• Advanced Spreadsheet & KPI Metrics</li>
+                        <li>• Custom SOP Integration</li>
+                    </ul>
+                    <button class="w-full py-4 text-[10px] bg-slate-900 text-white font-bold uppercase tracking-widest hover:bg-slate-800 transition">Select Strategic</button>
+                </div>
+
+                <div class="tier-card bg-white p-10 flex flex-col">
+                    <h4 class="text-[10px] uppercase tracking-[0.3em] text-slate-400 font-bold mb-4">Tier III • Complete</h4>
+                    <h3 class="serif text-2xl mb-2 font-bold italic">Enterprise Sync</h3>
+                    <p class="text-3xl font-light mb-8 text-slate-900 italic">Custom</p>
+                    <ul class="text-sm text-slate-500 space-y-4 mb-10 flex-grow font-light leading-relaxed">
+                        <li>• Total Remote Operations Takeover</li>
+                        <li>• White-Glove VIP Client Support</li>
+                        <li>• Custom API & System Integrations</li>
+                        <li>• Dedicated Admin Management</li>
+                        <li>• Weekly Performance Reviews</li>
+                    </ul>
+                    <button class="w-full py-4 text-[10px] font-bold uppercase tracking-widest border border-slate-900 hover:bg-slate-900 hover:text-white transition">Inquire</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="governance" class="py-24 bg-white">
+        <div class="container mx-auto px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="serif text-4xl mb-4 text-slate-900">Administrative Charter</h2>
+                <p class="text-slate-400 mb-16 uppercase tracking-widest text-xs font-bold">Melly Mel & Co LLC Operating Protocol</p>
+                
+                <div class="space-y-16">
+                    <div class="charter-border">
+                        <h4 class="font-bold text-sm uppercase tracking-widest mb-4 text-slate-900 italic">I. Continuity of Service</h4>
+                        <p class="text-slate-600 font-light text-base leading-relaxed">
+                            To ensure the integrity of your logistics, all service agreements operate on an automatic month-to-month renewal cycle. This enables Effficiency Scheduling Services to maintain long-term data consistency and spreadsheet accuracy without administrative lapse.
+                        </p>
+                    </div>
+
+                    <div class="charter-border">
+                        <h4 class="font-bold text-sm uppercase tracking-widest mb-4 text-slate-900 italic">II. Resolution Protocol</h4>
+                        <p class="text-slate-600 font-light text-base leading-relaxed">
+                            Melly Mel & Co LLC mandates a <strong>30-day good faith negotiation period</strong> for all operational adjustments or disputes. We prioritize direct, professional dialogue to resolve hurdles, maintaining the "Triple-F" (Fast, Focused, Functional) standard at all times.
+                        </p>
+                    </div>
+
+                    <div class="charter-border">
+                        <h4 class="font-bold text-sm uppercase tracking-widest mb-4 text-slate-900 italic">III. Transition Flexibility</h4>
+                        <p class="text-slate-600 font-light text-base leading-relaxed">
+                            We support modern business agility with a standard <strong>14-day termination notice</strong>. This window ensures a clean handoff of spreadsheets, calendar access, and dispatch logs, protecting your business continuity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-20 border-t border-slate-100">
+        <div class="container mx-auto px-8 text-center">
+            <div class="text-xl font-bold tracking-[0.2em] uppercase text-slate-900 mb-2">e<span class="text-slate-400 font-light">fff</span>iciency</div>
+            <p class="text-[10px] text-slate-400 uppercase tracking-[0.3em] mb-12 font-bold">A Division of Melly Mel & Co LLC</p>
+            <div class="text-[9px] text-slate-400 uppercase tracking-[0.2em] leading-loose">
+                © 2026 Melly Mel & Co LLC | Westchester County, NY | All Operations Remote <br>
+                Governed by New York State Business Standards
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
